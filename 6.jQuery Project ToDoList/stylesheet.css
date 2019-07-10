@@ -1,0 +1,98 @@
+
+
+
+
+#todoListWrapper{
+	width: 1060px;
+    margin: 0 auto;
+	text-align: center;
+	border: solid 1px black;
+	height: 300px;
+
+}
+
+#todoList:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+
+#todoList ul{
+	width: 14.28%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	list-style-type: none;
+
+}
+
+#todoList li{
+	background: none;
+	padding: 5px;
+	border: none;
+	margin: 0;
+	text-align: left;
+	font-size: 14px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#todoList li:hover{
+	background: #eee;
+}
+
+#todoList li.listTitle{
+	background: #444;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border-right: solid 1px white;
+	font-size: 14px;
+}
+
+#todoList li.listTitle:hover,
+#todoList li.listTitle:active{
+	cursor: default;
+	transform: none;
+}
+
+#todoList .emptySpace{
+	background: #fc3;
+	border: dashed 1px #777;
+	height: 10px;
+}
+
+#todoList li.addItem{
+	display: none;
+	position: absolute;
+	top: 0;
+	background: none;
+
+}
+
+#todoList ul:hover li.addItem{
+	display: block;
+}
+
+#todoList li.addItem input{
+	width: 100%;
+	padding: 4px;
+}
+
+#todoList li.addItem:active{
+	transform: none;
+}
+
+#trash{
+	background: rgba(178, 73, 38, 0.7);
+	padding: 10px;
+	text-align: center;
+	width: 1042px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 10px;
+	color: white;
+
+
+}
