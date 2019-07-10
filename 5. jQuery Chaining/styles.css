@@ -1,0 +1,37 @@
+h1, form, div{
+	text-align: center;
+}
+
+#box{
+	height: 200px;
+	width: 200px;
+	background: #fc3;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 200px;
+}
+
+button{
+	background: #933;
+	color: white;
+	padding: 10px;
+	border: solid 2px black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.notification-bar {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.notification-bar a{
+	color: #fc3;
+}
